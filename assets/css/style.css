@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #120909;
+}
+
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-link {
+    color: #007bff;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,...'); /* Add your custom SVG or image for the toggle icon */
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background: url('./assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: #0c0a0a;
+    padding: 80px 0; /* Adjust padding for consistency */
+    text-align: center;
+    min-height: 400px; /* Ensure a consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Services Section Styles */
+#services {
+    padding: 80px 0; /* Ensure consistency with other sections */
+    background-color: #f8f9fa; /* Light background color for contrast */
+}
+
+#services h2 {
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.service-card {
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.card.service-card.web-development {
+    background: url('./assets/images/web-development-bg.jpg') no-repeat center center/cover;
+}
+
+.card.service-card.java-development {
+    background: url('./assets/images/java-development-bg.jpg') no-repeat center center/cover;
+}
+
+.card.service-card.social-media-management {
+    background: url('./assets/images/social-media-management-bg.jpg') no-repeat center center/cover;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    padding: 80px 0;
+}
+
+#portfolio h2 {
+    margin-bottom: 40px;
+}
+
+.pro-img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 80px 0;
+}
+
+#about h2 {
+    margin-bottom: 40px;
+}
+
+#about h3 {
+    margin-bottom: 20px;
+}
+
+/* Favorites Section Styles */
+#favorites {
+    padding: 80px 0;
+}
+
+.card-body.text-center {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 80px 0;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer .social-icons a:hover {
+    color: #ffc107;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .jumbotron {
+        padding: 60px 0;
+        min-height: 300px;
+    }
+
+    .pro-img {
+        height: 200px;
+    }
+}

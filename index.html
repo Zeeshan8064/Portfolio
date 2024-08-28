@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome for social media and service icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#academics">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- HOME -->
+    <section id="home" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            <h1 class="display-4" data-aos="fade-up">I'm a <span class="text-primary">Web Developer</span> from Debrecen, Hungary</h1>
+            <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
+            <a href="tel:+36205917451" class="btn btn-outline-primary">Call: (+36) 2059 17451</a>
+        </div>
+    </section>
+    <!-- //HOME -->
+
+    <!-- SERVICES -->
+    <section id="services" class="container py-5">
+        <h2 class="text-center mb-4">Services I Offer</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card service-card web-development">
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                        <h5>Web Development</h5>
+                        <p>Web development transforms creative ideas into functional digital experiences, weaving together design, code, and interactivity. It's where art meets technology to build the online world we navigate every day.</p>
+                        <a href="https://www.geeksforgeeks.org/web-development/" target="_blank" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card service-card java-development">
+                    <div class="card-body text-center">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h5>JAVA Development</h5>
+                        <p>Java development harnesses the power of a versatile, object-oriented language to build robust, scalable applications across platforms. It’s a cornerstone of enterprise software, Android apps, and web applications, ensuring reliability and efficiency.</p>
+                        <a href="https://www.w3schools.com/java/java_intro.asp" target="_blank" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="card service-card social-media-management">
+                    <div class="card-body text-center">
+                        <i class="fas fa-share-alt fa-3x mb-3"></i>
+                        <h5>Social Media Management</h5>
+                        <p>Social media management involves crafting and executing strategies to build and engage an online audience, track performance metrics, and create compelling content. It’s about balancing brand voice with user interaction to drive growth and strengthen digital presence.</p>
+                        <a href="https://www.agorapulse.com/blog/social-media-management/" target="_blank" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //SERVICES -->
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="container py-5">
+        <h2 class="text-center mb-4">Recent Projects</h2>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="card">
+                    <img src="./assets/images/Queen.jpg" class="card-img-top pro-img" alt="Queen's-Quest">
+                    <div class="card-body">
+                        <h5 class="card-title">Queen's Quest</h5>
+                        <p class="card-text">This project is a puzzle game called "Queen's Quest" that challenges players to place the Queen to the bottom left (a1) square of the board. The game is implemented using Java programming language and the JavaFX framework for the user interface. Player and win information is stored using JSON (Jackson library).</p>
+                        <a href="https://github.com/Zeeshan8064/Queen-s-Quest" target="_blank" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="card">
+                    <img src="./assets/images/Perfume.jpg" class="card-img-top pro-img" alt="Parallax-Scrolling">
+                    <div class="card-body">
+                        <h5 class="card-title">Parallax-Scrolling website</h5>
+                        <p class="card-text">Ethereal Perfume is a beautifully designed parallax scrolling website showcasing a luxurious perfume brand.</p>
+                        <a href="https://zeeshan8064.github.io/Parallex-scrolling/" target="_blank" class="btn btn-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //PORTFOLIO -->
+
+    <!-- ABOUT -->
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Education</h3>
+                <div class="mb-4">
+                    <h5>BSc Computer Science</h5>
+                    <p>University Of Debrecen (2021 - 2024)</p>
+                    <p>Studying technology in the heart of Europe.</p>
+                </div>
+                <div>
+                    <h5>IGCSE - A-Levels</h5>
+                    <p>Alpha College (2017 - 2021)</p>
+                    <p>Where We All Come Together</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Experience</h3>
+                <div class="mb-4">
+                    <h5>Web Developer Intern</h5>
+                    <p>Lime Light Renhold (2024)</p>
+                    <p>Designing web solutions.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- //ABOUT -->
+
+    <!-- FAVORITES -->
+    <section id="favorites" class="container py-5">
+        <h2 class="text-center mb-4">My Favorites</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="./assets/images/Cycle.jpg" class="card-img-top" alt="Volleyball">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cycling</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card">
+                    <img src="./assets/images/Books.jpg" class="card-img-top" alt="Book Reading">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Book Reading</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="card">
+                    <img src="./assets/images/Travel.jpg" class="card-img-top" alt="Coding Challenges">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Travelling</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //FAVORITES -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+    <!-- //CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">Designed by <a href="#" class="text-white font-weight-bold">Zeeshan</a></p>
+        <div class="social-icons mt-2">
+            <a href="https://www.instagram.com/_.zeeshanahmad._/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Zeeshan8064" target="_blank" class="text-white mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/zeeshan-ahmad-26992429b/" target="_blank" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <!-- //FOOTER -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
